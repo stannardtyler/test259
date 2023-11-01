@@ -1,55 +1,38 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+  <head>
+    <script src="https://cdn.jsdelivr.net/npm/p5@latest/lib/p5.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5@latest/lib/addons/p5.sound.min.js"></script>
+    <!-- Version 3 of p5play -->
+    <script src="https://p5play.org/v3/p5play.js"></script>
+    <script src="https://p5play.org/v3/planck.min.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
 
-<head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>p5play</title>	
-	<link rel='stylesheet' href ='style.css'  type='text/css'>
+  </head>
+  <body>
 
-	<!-- <style>
-		html,
-		body {
-			background-color: black;
-			margin: 0;
-			padding: 0;
-			overscroll-behavior: none;
-			color: white;
-			background-color: rgb(56, 4, 76);
-			text-align: center;
-		}
+	<div>
+
+
+		<button class="btn2" value="Refresh Page" onclick="window.location.reload()"> retry</button><form>
+			<!-- <button onClick="retryGame()" class = "btn2" value="Refresh Page" onclick="window.location.reload()"> retry></button>> -->
+			<!-- <button onclick="location.href = 'test.html';" id="b2" class="btn2 float-left submit-button" >start</button> -->
 	
-	</style> -->
-</head>
-
-<body>
-<div>
-
-
-	<button class="btn2" value="Refresh Page" onclick="window.location.reload()"> retry</button><form>
-		<!-- <button onClick="retryGame()" class = "btn2" value="Refresh Page" onclick="window.location.reload()"> retry></button>> -->
-		<!-- <button onclick="location.href = 'test.html';" id="b2" class="btn2 float-left submit-button" >start</button> -->
-
-
-</div>
-
+	
+	</div>
+    <main>
+    </main>
 	<h1> Art 259: Project 2</h1>
+
 	<div id ="game">
-	
-		
-	<script src="node_modules/p5/lib/p5.js"></script>
-	<script src="node_modules/p5/lib/addons/p5.sound.min.js"></script>
-	<script src="node_modules/p5play/planck.min.js"></script>
-	<script src="node_modules/p5play/p5play.js"></script>
 	<script src="ghost.js"></script>
 	<script src="heart.js"></script>
 	<script src="skull.js"></script>
-	<script src="sketch.js"></script>
-
+    <script src="sketch.js"></script>
 	</div>
 
 	<p> Instructions: Use the mouse to move the ghost and collect the hearts. Avoid the skulls!</p>
-		
-</body>
-
+  </body>
 </html>
